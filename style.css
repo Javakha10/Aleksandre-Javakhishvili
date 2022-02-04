@@ -4,17 +4,18 @@
 }
 h1 {
   text-align: center;
-  color: rgb(0, 0, 0);;
+  color: white;
 }
 body {
   margin: 0;
+  background-color: #f9e3cc;
 }
 table {
   border-collapse: collapse;
 }
 table {
   width: 100%;
-  color: rgb(0, 0, 0);
+  color: white;
 }
 
 table th {
@@ -23,7 +24,7 @@ table th {
 
 table th,
 table td {
-  border: 3px solid rgb(0, 0, 0);
+  border: 3px solid white;
   padding: 10px 30px;
 }
 .all-page {
@@ -35,7 +36,6 @@ table td {
 .first-image {
   width: 230px;
   height: 388px;
-  border: 3px solid white;
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -44,7 +44,6 @@ table td {
 .second-image {
   width: 230px;
   height: 388px;
-  border: 3px solid white;
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -53,7 +52,6 @@ table td {
 .third-image {
   width: 230px;
   height: 388px;
-  border: 3px solid white;
   margin: 0;
   padding: 0;
   display: inline-block; 
@@ -62,14 +60,15 @@ table td {
 .fourth-image {
   width: 230px;
   height: 388px;
-  border: 3px solid white;
   margin: 0;
   padding: 0;
   display: inline-block;  
 }
 
 .bg-color {
-  background-color: #f7ece8; 
+  background-image: url(./images/sand-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%; 
   margin: 0 auto;
   padding: 50px;
