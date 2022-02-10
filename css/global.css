@@ -1,0 +1,33 @@
+@import url(./variables.css);
+@import url(./font.css);
+@import url(./reset.css);
+@import url(./components/button.css);
+
+.container {
+  width: 1300px;
+  margin-inline: auto;
+}
+.bg-image {
+  background-image: url(../assets/images/hacker.png);
+  background-size: 100%;
+    width:100%;
+    height: 1200px;
+    margin:0 auto;
+    background-repeat: no-repeat;
+}
+
+.h1-hover {
+  color: var(--font-color);
+  font-size: 30px;
+  background: var(--hover-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 15px 0px;
+}
+
+
+.skills-a {
+  padding:15px 20px;
+  color: var(--font-color);
+  font-size: 20px;
+}

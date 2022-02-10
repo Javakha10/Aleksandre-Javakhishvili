@@ -1,0 +1,21 @@
+@import url(../variables.css);
+
+header {
+    height: 100px;
+    background-color: var(--main-color);
+    font-size: 25px;
+}
+
+header a {
+color: var(--font-color);
+}
+
+header nav > div {
+    gap: 0 50px;
+}
+
+.animation a:hover {
+    background: var(--hover-color);
+    border-radius: 8px;
+}
+

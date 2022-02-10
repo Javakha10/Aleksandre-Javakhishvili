@@ -1,0 +1,28 @@
+.d-flex {
+    display: flex;
+}
+
+.first-menu {
+    padding: 3px 9px;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 300px;
+}
+
+.skills-list {
+    display: flex;
+    flex-direction: column;
+}
