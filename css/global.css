@@ -10,10 +10,10 @@
 .bg-image {
   background-image: url(../assets/images/hacker.png);
   background-size: 100%;
-    width:100%;
-    height: 1200px;
-    margin:0 auto;
-    background-repeat: no-repeat;
+  width: 100%;
+  height: 1200px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
 }
 
 .h1-hover {
@@ -25,9 +25,56 @@
   margin: 15px 0px;
 }
 
-
 .skills-a {
-  padding:15px 20px;
+  padding: 15px 20px;
   color: var(--font-color);
   font-size: 20px;
+}
+
+.bg-image-about {
+  background-image: url(../assets/images/about-me.png);
+  background-size: 100%;
+  width: 100%;
+  height: 1200px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+}
+
+.h1-hover-about {
+  color: var(--font-color);
+  font-size: 30px;
+  background: var(--main-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 15px 0px;
+}
+
+.bg-image-experience {
+  background-image: url(../assets/images/experience.png);
+  background-size: 100%;
+  width: 100%;
+  height: 1200px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+} 
+
+.skills-a-experience {
+  padding: 15px 20px;
+  color: var(--font-color);
+  font-size: 35px;
+}
+
+.h1-hover-experience {
+  color: var(--font-color);
+  font-size: 30px;
+  background: var(--main-color);
+  padding: 10px 20px;
+  border-radius: 30px;
+  margin: 15px 0px;
+}
+
+.skills-a-about {
+  padding: 15px 20px;
+  color: var(--font-color);
+  font-size: 25px;
 }
