@@ -9,11 +9,13 @@
 }
 .bg-image {
   background-image: url(../assets/images/hacker.png);
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  height: 1200px;
+  height: 600px;
   margin: 0 auto;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .h1-hover {
@@ -33,11 +35,13 @@
 
 .bg-image-about {
   background-image: url(../assets/images/about-me.png);
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  height: 1200px;
+  height: 600px;
   margin: 0 auto;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .h1-hover-about {
@@ -51,11 +55,13 @@
 
 .bg-image-experience {
   background-image: url(../assets/images/experience.png);
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  height: 1200px;
+  height: 600px;
   margin: 0 auto;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 } 
 
 .skills-a-experience {
@@ -81,11 +87,13 @@
 
 .bg-image-education {
   background-image: url(../assets/images/education.png);
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  height: 1200px;
+  height: 600px;
   margin: 0 auto;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .h1-hover-education {
@@ -99,11 +107,13 @@
 
 .bg-image-contact {
   background-image: url(../assets/images/contact.png);
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   width: 100%;
-  height: 1200px;
+  height: 600px;
   margin: 0 auto;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .skills-a-contact {
@@ -123,4 +133,118 @@
 
 .red-word {
   color: red;
+}
+
+.scrollTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  background: var(--main-color) url(../assets/icons/up.png);
+  border-radius: 50%;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  z-index: 100000;
+  visibility: hidden;
+  opacity: 0;
+
+}
+
+.main {
+  width: 15%;
+  margin: 24% auto;
+  position: absolute;
+  top: -10px;
+  left: 54.5%;
+}
+
+#slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    outline: none;
+    border-radius: 3px;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 48px;
+  cursor: pointer;
+  z-index: 3;
+  position: relative;    
+}
+
+#selector {
+    height: 104px;
+    width: 48px;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.selectbtn {
+    height: 28px;
+    width: 28px;
+    background-image: url(../assets/icons/circle.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 13px;
+}
+
+#SelectValue {
+  width: 48px;
+  height: 40px;
+  position: absolute;
+  top: 30px;
+  right: 9px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 15px;
+  font-weight: bold;
+  color: var(--font-color);
+}
+
+#SelectValue::after {
+  content: '';
+  border-top: 10px solid white;
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+}
+
+#ProgressBar {
+  height: 7px;
+  width: 50%;
+  background: white;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  border-radius: 3px;
+}
+
+.bg-image-endorse {
+  background-image: url(../assets/images/web.png);
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 1000px;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  overflow-x: hidden; 
+}
+
+.endorse {
+  color: var(--font-color);
+  font-size: 40px;
+  position: absolute;
+  top: 34%;
+  right: 30%;
 }

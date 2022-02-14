@@ -18,8 +18,9 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    padding: 0px 300px;
+    position: relative;
+    top: 50%;
+    left: 15%;
 }
 
 .skills-list {
@@ -30,7 +31,9 @@
 .flex-container-experience {
     display: flex;
     flex-direction: column;
-    padding: 100px 300px;
+    position: relative;
+    top: 10%;
+    right: 20%;
 }
 
 .align-items-center-experience {
@@ -41,14 +44,56 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
-    padding: 300px 100px;
+    position: relative;
+    top: 15%;
+    left: 10%;
 }
 
 .flex-container-contact {
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    padding: 350px;
+    position: relative;
+    top: 50%;
+    padding: 100px 300px;
+
 }
 
+.flex-container-education {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    top: 40%;
+    left: 15%;   
+}
+
+.laptop-container {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+}
+
+.visit-web {
+    position: absolute;
+    bottom: 50%;
+    left: 28%;
+    color: var(--font-color);
+    font-size: 30px; 
+}
+
+.visit-web-1 {
+    position: absolute;
+    bottom: 27%;
+    left: 28%;
+    color: var(--font-color);
+    font-size: 30px;     
+}
+
+.portfolio {
+    position: absolute;
+    top: 25px;
+    left: 33.5%;
+    color: var(--font-color);
+    font-size: 40px;   
+}

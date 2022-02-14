@@ -1,15 +1,13 @@
 @import url(../variables.css);
 
 footer {
-    height: 100px;
+    height: 120px;
     background-color: var(--main-color);
     font-size: 20px;
+    top: 100%;
+    position: relative;
 }
 
 footer p {
     color: var(--font-color);
     }
-
-footer > div {
-    gap: 0 100px;
-}
