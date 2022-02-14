@@ -172,6 +172,7 @@
 #slider::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 48px;
+  height: 48px;
   cursor: pointer;
   z-index: 3;
   position: relative;    
@@ -223,7 +224,7 @@
 #ProgressBar {
   height: 7px;
   width: 50%;
-  background: white;
+  background: var(--bg-color);
   position: absolute;
   top: 7px;
   left: 0;
