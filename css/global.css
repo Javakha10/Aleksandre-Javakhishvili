@@ -135,24 +135,6 @@
   color: red;
 }
 
-.scrollTop {
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  width: 60px;
-  height: 60px;
-  background: var(--main-color) url(../assets/icons/up.png);
-  border-radius: 50%;
-  background-size: 40px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-  z-index: 100000;
-  visibility: hidden;
-  opacity: 0;
-
-}
-
 .main {
   width: 15%;
   margin: 24% auto;
@@ -248,4 +230,27 @@
   position: absolute;
   top: 34%;
   right: 30%;
+}
+
+.nexy-container {
+  color: var(--font-color);
+  font-size: 30px;
+}
+
+.ensol-container {
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+body, html {
+  scroll-behavior: smooth;
+}
+
+#scroll-btn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+  display: none;
+  
 }

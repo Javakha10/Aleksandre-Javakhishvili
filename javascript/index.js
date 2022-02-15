@@ -1,15 +1,3 @@
-window.addEventListener('scroll', function(){
-  var scroll = document.querySelector('.scrollTop');
-  scroll.classList.toggle("active" , window.scrollY > 500)
-})
-
-function scrollToTop() {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  })
-}
-
 var slider = document.getElementById("slider");
 var selector = document.getElementById("selector");
 var SelectValue = document.getElementById("SelectValue");
@@ -21,4 +9,18 @@ slider.oninput = function(){
     SelectValue.innerHTML = this.value;
   selector.style.left = this.value + "%";
   ProgressBar.style.width = this.value + "%";
+}
+
+var mybutton = document.getElementById("scroll-btn");
+
+window.onscroll = function(){
+  scrollFunction()
+};
+function scrollFunction(){
+  if(document.body.scroll > 100 || document.documentElement.scrollTop > 100 ){
+    mybutton.style.display= "block";
+  }
+  else{
+    mybutton.style.display= "none"; 
+  }
 }
