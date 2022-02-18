@@ -22,7 +22,7 @@
 
 .div-1 {
   position: absolute;
-  top: 200px;
+  top: 250px;
   right: 200px;
   z-index: 2;
 }
@@ -31,7 +31,7 @@
   background-color: var(--logo-color);
   position: absolute;
   z-index: 1;
-  top: 190px;
+  top: 240px;
   right: 209px;
   width: 301.17px;
   height: 400px;
@@ -40,14 +40,14 @@
 .div-3 {
   position: absolute;
   z-index: 3;
-  top: 546px;
+  top: 596px;
   right: 257px;
 }
 
 .div-4 {
   position: absolute;
   z-index: 4;
-  top: 450px;
+  top: 500px;
   right: 220px;
   background-color: white;
 }
@@ -56,4 +56,13 @@
   font-size: 8px;
   color: var(--font-color);
   padding: 20px 20px; 
+}
+
+.h1-container {
+  color: white;
+  background-color: var(--logo-color);
+  position: relative;
+  top: 60px;
+  font-size: 30px;
+  padding: 15px 300px;
 }
