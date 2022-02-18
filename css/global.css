@@ -2,255 +2,58 @@
 @import url(./font.css);
 @import url(./reset.css);
 @import url(./components/button.css);
+@import url(./card.css);
 
 .container {
-  width: 1300px;
-  margin-inline: auto;
+  width: 1200px;
+  margin: auto;
 }
+
 .bg-image {
-  background-image: url(../assets/images/hacker.png);
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 600px;
-  margin: 0 auto;
+  background-image: url(../assets/images/cover.png);
   background-repeat: no-repeat;
-  overflow-x: hidden;
-}
-
-.h1-hover {
-  color: var(--font-color);
-  font-size: 30px;
-  background: var(--hover-color);
-  padding: 10px 25px;
-  border-radius: 30px;
-  margin: 15px 0px;
-}
-
-.skills-a {
-  padding: 15px 20px;
-  color: var(--font-color);
-  font-size: 20px;
-}
-
-.bg-image-about {
-  background-image: url(../assets/images/about-me.png);
   background-size: cover;
-  background-attachment: fixed;
   width: 100%;
-  height: 600px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-}
-
-.h1-hover-about {
-  color: var(--font-color);
-  font-size: 30px;
-  background: var(--hover-color);
-  padding: 10px 20px;
-  border-radius: 30px;
-  margin: 15px 0px;
-}
-
-.bg-image-experience {
-  background-image: url(../assets/images/experience.png);
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 600px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-} 
-
-.skills-a-experience {
-  padding: 15px 63px;
-  color: var(--font-color);
-  font-size: 35px;
-}
-
-.h1-hover-experience {
-  color: var(--font-color);
-  font-size: 30px;
-  background: var(--main-color);
-  padding: 10px 20px;
-  border-radius: 30px;
-  margin: 15px 0px;
-}
-
-.skills-a-about {
-  padding: 15px 20px;
-  color: var(--font-color);
-  font-size: 25px;
-}
-
-.bg-image-education {
-  background-image: url(../assets/images/education.png);
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 600px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-}
-
-.h1-hover-education {
-  color: var(--font-color);
-  font-size: 30px;
-  background: var(--main-color);
-  padding: 10px 20px;
-  border-radius: 30px;
-  margin: 15px 0px;
-}
-
-.bg-image-contact {
-  background-image: url(../assets/images/contact.png);
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 600px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  overflow-x: hidden;
-}
-
-.skills-a-contact {
-  padding: 15px 20px;
-  color: var(--font-color);
-  font-size: 25px;
-}
-
-.h1-hover-mail {
-  color: var(--font-color);
-  font-size: 30px;
-  background: var(--hover-color);
-  padding: 10px 45px;
-  border-radius: 30px;
-  margin: 15px 0px;
-}
-
-.red-word {
-  color: red;
 }
 
 .main {
-  width: 15%;
-  margin: 24% auto;
+  min-height: calc(100vh - 75px - 100px - 359px);
+}
+
+.div-1 {
   position: absolute;
-  top: -10px;
-  left: 54.5%;
+  top: 200px;
+  right: 200px;
+  z-index: 2;
 }
 
-#slider {
-    -webkit-appearance: none;
-    width: 100%;
-    height: 7px;
-    outline: none;
-    border-radius: 3px;
+.div-2 {
+  background-color: var(--logo-color);
+  position: absolute;
+  z-index: 1;
+  top: 190px;
+  right: 209px;
+  width: 301.17px;
+  height: 400px;
 }
 
-#slider::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  width: 48px;
-  height: 48px;
-  cursor: pointer;
+.div-3 {
+  position: absolute;
   z-index: 3;
-  position: relative;    
+  top: 546px;
+  right: 257px;
 }
 
-#selector {
-    height: 104px;
-    width: 48px;
-    position: absolute;
-    bottom: -20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 2;
-}
-
-.selectbtn {
-    height: 28px;
-    width: 28px;
-    background-image: url(../assets/icons/circle.png);
-    background-size: cover;
-    background-position: center;
-    border-radius: 50%;
-    position: absolute;
-    bottom: 13px;
-}
-
-#SelectValue {
-  width: 48px;
-  height: 40px;
+.div-4 {
   position: absolute;
-  top: 30px;
-  right: 9px;
-  border-radius: 10px;
-  text-align: center;
-  line-height: 45px;
-  font-size: 15px;
-  font-weight: bold;
+  z-index: 4;
+  top: 450px;
+  right: 220px;
+  background-color: white;
+}
+
+.description {
+  font-size: 8px;
   color: var(--font-color);
-}
-
-#SelectValue::after {
-  content: '';
-  border-top: 10px solid white;
-  position: absolute;
-  bottom: -14px;
-  left: 0;
-}
-
-#ProgressBar {
-  height: 7px;
-  width: 50%;
-  background: var(--bg-color);
-  position: absolute;
-  top: 7px;
-  left: 0;
-  border-radius: 3px;
-}
-
-.bg-image-endorse {
-  background-image: url(../assets/images/web.png);
-  background-size: cover;
-  background-attachment: fixed;
-  width: 100%;
-  height: 1000px;
-  margin: 0 auto;
-  background-repeat: no-repeat;
-  overflow-x: hidden; 
-}
-
-.endorse {
-  color: var(--font-color);
-  font-size: 40px;
-  position: absolute;
-  top: 34%;
-  right: 30%;
-}
-
-.nexy-container {
-  color: var(--font-color);
-  font-size: 30px;
-}
-
-.ensol-container {
-    color: var(--font-color);
-    font-size: 30px;
-}
-
-body, html {
-  scroll-behavior: smooth;
-}
-
-#scroll-btn {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
-  z-index: 100;
-  display: none;
-  
+  padding: 20px 20px; 
 }

@@ -1,13 +1,19 @@
 @import url(../variables.css);
 
-footer {
-    height: 120px;
-    background-color: var(--main-color);
-    font-size: 20px;
-    top: 100%;
-    position: relative;
-}
+  footer {
+    height: 100px;
+    align-items: center;
+    background-color: var(--logo-color);
+    bottom: 0;
 
-footer p {
-    color: var(--font-color);
-    }
+  }
+
+  footer .container {
+    align-items: center;
+  }
+
+  footer p {
+      align-items: center;
+      justify-content: space-between;
+      color: white;
+  } 

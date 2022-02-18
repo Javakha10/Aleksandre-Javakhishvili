@@ -1,21 +1,40 @@
 @import url(../variables.css);
 
 header {
-    height: 100px;
-    background-color: var(--main-color);
-    font-size: 25px;
-}
+    height: 75px;
+    align-items: center;
+  }
 
-header a {
-color: var(--font-color);
-}
+  header .container {
+    align-items: center;
+  }
 
-header nav > div {
-    gap: 0 50px;
-}
+  header .logo {
+    width: 35px;
+    height: 35px;
+    margin: 0 50px;
+  }
 
-.animation a:hover {
-    background: var(--hover-color);
-    border-radius: 8px;
-}
+  nav a {
+    color: var(--font-color);
+    text-decoration: none;
+    padding: 0 15px;
+    font-size: 20px;
+  }
 
+  nav a:hover{
+    text-decoration: underline;
+  }
+
+  header .social-icons {
+    width: 20px;
+  }
+
+  nav {
+    width: calc(100% - 45px);
+    align-items: center;
+  }
+
+  .social-icons-container a{
+    padding: 0 2px;
+  }

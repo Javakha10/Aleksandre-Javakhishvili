@@ -1,0 +1,44 @@
+.card {
+width: 300px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.span-1 {
+    position: absolute;
+    left: 180px;
+    bottom: 120px;
+    z-index: 2;
+    color: white;
+    background-color:var(--logo-color);
+    padding: 3px;
+}
+
+.span-2 {
+    position: absolute;
+    left: 630px;
+    bottom: 120px;
+    z-index: 2;
+    color: white;
+    background-color:var(--logo-color);
+    padding: 3px;
+}
+
+.span-3 {
+    position: absolute;
+    left: 1080px;
+    bottom: 120px;
+    z-index: 2;
+    color: white;
+    background-color:var(--logo-color);
+    padding: 3px;
+}
+
+.card p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 48px;
+    overflow: hidden;
+}

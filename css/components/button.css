@@ -1,55 +1,11 @@
 .btn {
-    background: var(--hover-color);
-    color: var(--font-color);
-    padding: 7px 10px;
+    padding: 10px 40px;
+    font-size: 10px;
+    background: var(--logo-color);
+    color: white;
     border: 0;
+    cursor: pointer;
+    font-family: var(--main-font);
     border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0 3px 7px 1px var(--main-color);
 }
-
-.btn:hover {
-    background: var(--main-color);
-}
-
-.btn-web {
-    background: var(--hover-color);
-    color: var(--font-color);
-    padding: 10px 15px;
-    border: 0;
-    border-radius: 10px;
-    font-weight: bold;
-    cursor: pointer;
-    box-shadow: 0 3px 7px 1px var(--main-color);
-    align-items: center;
-}
-
-.btn-web:hover {
-    background: var(--main-color);
-}
-
-.scrollTop {
-    position: fixed;
-    bottom: 40px;
-    right: 40px;
-    width: 60px;
-    height: 60px;
-    background: var(--main-color) url(../assets/icons/up.png);
-    border-radius: 50%;
-    background-size: 40px;
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
-    z-index: 100000;
-    visibility: hidden;
-    opacity: 0;
-    transition: 0.5s;
-  
-  }
-
-  .scrollTop.active {
-      visibility: visible;
-      opacity: 1;
-  }
 

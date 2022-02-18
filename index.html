@@ -1,66 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Modern Alien</title>
+    <title>POPSTER</title>
     <link rel="stylesheet" href="./css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Share:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   </head>
-  
-  <body class="bg-image">
-    <header class="d-flex align-items-center">
-      <nav class="container d-flex justify-content-between">
-        <div>
-          <a><img src="./assets/images/logo.svg" alt="logo" width="50px"
-          /></a>
+  <body>
+    <div class="grid-container">
+      <div class="item-1">
+        <header class="d-flex">
+          <div class="container d-flex justify-content-between">
+            <a href="#"
+              ><img class="logo" src="./assets/images/logo.svg" alt="ლოგო"
+            /></a>
+            <nav class="d-flex justify-content-between">
+              <div class="menu-container">
+                <a href="#">HOME</a>
+                <a href="#">BLOG</a>
+                <a href="#">CITIES</a>
+                <a href="#">ARTISTS</a>
+              </div>
+              <div class="menu-container">
+                <a href="#">REGISTER</a>
+                <a href="#">LOG IN</a>
+              </div>
+            </nav>
+          </div>
+        </header>
+      </div>
+      <div class="item-2">
+        <div><img class="bg-image" src="./assets/images/cover.png" alt="cover"/>
+          <div class="div-1"><img src="./assets/images/street-art-1.png" alt="art" height="400px"></div>
+          <div class="div-2"></div>
+          <div class="div-3"><button class="btn">READ</button></div>
+          <div class="div-4"><p class="description">Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. <br> Nullam feugiat bibendum placerat. <br> Phasellus venenatis et tellus vel rhoncus. </p></div>
         </div>
-        <div class="d-flex animation first-menu align-items-center">
-          <a href="./about-me.html">ABOUT ME</a>
-          <a href="./experience.html">EXPERIENCE</a>
-          <a href="./education.html">EDUCATION</a>
-          <a href="./endorse.html">ENDORSE</a>
-          <a href="./contact.html">CONTACT</a>
+      </div>
+      <div class="main"></div>
+      <div class="item-3 container d-flex justify-content-between">
+        <div class="blog-container">
+          <div class="card">
+            <div class="img-container">
+              <img class="card-img" src="./assets/images/street-art-2.png" alt="street art">
+              <span class="span-1">18/02/2022</span>
+            </div>
+            <p>Suspendisse potenti. Nam gravida eu lacus faucibus ultrices</p>
+            <div class="action-container">
+              <button class="btn">READ</button>
+            </div>
+          </div>
         </div>
-      </nav>
-    </header>
-    <div
-      class="flex-container align-items-center"
-    >
-      <div class="h1-hover">
-        <h1>COMPUTER SKILLS</h1>
-      </div>
-      <div class="skills-list">
-        <div class="skills-a"><img src="./assets/icons/checkbox.png" alt="check" width="15px">&nbsp&nbsp&nbsp&nbsp&nbsp<a></a>OFFICE 365</a></div>
-        <div class="skills-a "><img src="./assets/icons/checkbox.png" alt="check" width="15px">&nbsp&nbsp&nbsp&nbsp&nbsp<a></a>WORDPRESS</a></div>
-        <div class="skills-a "><img src="./assets/icons/checkbox.png" alt="check" width="15px">&nbsp&nbsp&nbsp&nbsp&nbsp<a></a>PHOTOSHOP</a></div>
-        <div class="skills-a "><img src="./assets/icons/checkbox.png" alt="check" width="15px">&nbsp&nbsp&nbsp&nbsp&nbsp<a></a>PREMIERE</a></div>
-      </div>
-      <div class="h1-hover">
-        <h1>LANGUAGE</h1>
-      </div>
-      <div class="skills-list">
-        <div class="skills-a"><img src="./assets/icons/checkbox.png" alt="check" width="15px">&nbsp&nbsp&nbsp&nbsp&nbsp<a></a>GEORGIAN</a></div>
-        <div class="skills-a "><img src="./assets/icons/checkbox.png" alt="check" width="15px">&nbsp&nbsp&nbsp&nbsp&nbsp<a></a>ENGLISH</a></div>
-        <div class="skills-a "><img src="./assets/icons/checkbox.png" alt="check" width="15px">&nbsp&nbsp&nbsp&nbsp&nbsp<a></a>RUSSIAN</a></div>
+        <div class="blog-container">
+          <div class="card">
+            <div class="img-container">
+              <img class="card-img" src="./assets/images/street-art-3.png" alt="street art">
+              <span class="span-2">18/02/2022</span>
+            </div>
+            <p>Suspendisse potenti. Nam gravida eu lacus faucibus ultrices</p>
+            <div class="action-container">
+              <button class="btn">READ</button>
+            </div>
+          </div>
+        </div>
+        <div class="blog-container">
+          <div class="card">
+            <div class="img-container">
+              <img class="card-img" src="./assets/images/street-art-4.png" alt="street art">
+              <span class="span-3">18/02/2022</span>
+            </div>
+            <p>Suspendisse potenti. Nam gravida eu lacus faucibus ultrices</p>
+            <div class="action-container">
+              <button class="btn">READ</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-    <footer class="d-flex align-items-center">
-      <div class="d-flex container justify-content-between">
-        <p>2022 © MODERN ALIENS | ALL RIGHTS RESERVED</p>
-        <p>
-         <a href="https://www.facebook.com/sandro.javaxishvili.5" target="_blank"><img src="./assets/icons/fb-icon.png" alt="facebook" width="25px"/></a>
-         <a href="https://www.linkedin.com/in/aleksandre-javakhishvili/" target="_blank"><img
-            src="./assets/icons/linkedin-icon.png"
-            alt="linkedin"
-            width="25px"
-          /></a>
-        </p>
+      <div class="item-4">
+        <footer class="d-flex">
+          <div class="container d-flex justify-content-between">
+            <div>
+              <p>POWERED BY MODERN ALIENS</p>
+            </div>
+            <div class="social-icons">
+              <a href="#"><a href="#"><img src="./assets/icons/fb-icon.png" alt="fb" width="30px"></a></a>
+              <a href="#"><a href="#"><img src="./assets/icons/insta-icon.png" alt="fb" width="30px"></a></a>
+            </div>
+          </div>
+        </footer>
       </div>
-    </footer>
-    <script src="./javascript/index.js"></script>
+    </div>
   </body>
 </html>
