@@ -1,0 +1,15 @@
+@import url(./global.css);
+@import url(./components/form.css);
+
+.form-container > div{
+width: 300px;
+margin-inline: auto;
+padding: 63px;
+background-color: var(--bg-color);
+margin-top: 150px;
+margin-bottom: 200px;
+}
+
+.form-container > div button {
+    width: 100%;
+}

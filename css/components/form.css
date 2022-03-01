@@ -1,0 +1,31 @@
+.form-group > label {
+    display: block;
+}
+
+input {
+    height: 30px;
+    border: 0.5px solid var(--font-color);
+    border-radius: 0px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.form-group,
+.checkbox-group {
+    margin-bottom: 15px;
+}
+
+.login-h1 {
+    background-color: var(--logo-color);
+    color: white;
+    padding-left: 35px;    
+}
+
+.form-group > input:focus {
+    outline: 0;
+    border-color: var(--logo-color);
+}
+
+#save {
+    height: 13px;
+}
