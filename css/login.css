@@ -7,9 +7,21 @@ margin-inline: auto;
 padding: 63px;
 background-color: var(--bg-color);
 margin-top: 150px;
-margin-bottom: 200px;
+margin-bottom: 150px;
+z-index: 2;
+position: relative;
 }
 
 .form-container > div button {
     width: 100%;
 }
+
+/* .login-div-1 {
+    background-color: var(--logo-color);
+    position: relative;
+    z-index: 1;
+    top: 200px;
+    right: 0px;
+    width: 200px;
+    height: 200px;
+} */

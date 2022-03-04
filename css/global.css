@@ -35,10 +35,21 @@
   background-color: var(--logo-color);
   position: absolute;
   z-index: 1;
-  top: 240px;
+  top: 258px;
   right: 209px;
   width: 301.17px;
   height: 400px;
+  animation-name: frame;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes frame{
+0% {top: 258px; right:209px;}
+25% {top: 242px; right:209px;}
+50% {top: 242px; right:192px;}
+75% {top: 258px; right:192px;}
+100% {top: 258px; right:209px;}
 }
 
 .div-3 {
