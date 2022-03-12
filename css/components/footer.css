@@ -1,19 +1,22 @@
-@import url(../variables.css);
+footer p {
+    color: var(--font-color);
+    padding: 10px 0px;
+    font-size: 18px;
+    word-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 0;
+}
 
-  footer {
-    height: 100px;
-    align-items: center;
-    background-color: var(--logo-color);
-    bottom: 0;
+footer a {
+    text-decoration: none;
+    color: var(--main-color);
+    font-size: 20px;
+}
 
-  }
+.footer-p p {
+    line-height: 2.5;  
+}
 
-  footer .container {
-    align-items: center;
-  }
-
-  footer p {
-      align-items: center;
-      justify-content: space-between;
-      color: white;
-  } 
+.footer-logo {
+    padding: 0px 50px 0px 0px;
+}

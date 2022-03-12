@@ -1,40 +1,24 @@
-@import url(../variables.css);
-
 header {
-    height: 75px;
+    height: 100px;
     align-items: center;
-  }
+}
 
-  header .container {
-    align-items: center;
-  }
+nav {
+    width: calc (100% - 35.23px);
+}
 
-  header .logo {
-    width: 35px;
-    height: 35px;
-    margin: 0 50px;
-  }
-
-  nav a {
+nav a {
     color: var(--font-color);
     text-decoration: none;
     padding: 0 15px;
     font-size: 20px;
-  }
+}
 
-  nav a:hover{
-    text-decoration: underline;
-  }
+nav a:hover {
+    color: var(--font-color);
+    font-weight: bold;
+}
 
-  header .social-icons {
-    width: 20px;
-  }
-
-  nav {
-    width: calc(100% - 45px);
+header .container {
     align-items: center;
-  }
-
-  .social-icons-container a{
-    padding: 0 2px;
-  }
+}
