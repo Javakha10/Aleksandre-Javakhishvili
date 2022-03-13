@@ -60,3 +60,21 @@ h3 {
     color: var(--font-color);
     font-size: 22px;
 }
+
+.item-31 h2 {
+    text-align: center;
+    font-size: 40px;
+    color: var(--font-color);
+}
+.item-32 p {
+    text-align: center;
+}
+
+.menu-btn {
+    text-align: center;
+    color: var(--font-color);
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}

@@ -73,6 +73,53 @@
     color: white;
 }
 
+.menu-btn {
+    border: solid 1px #eaf0fe;
+    background-image: linear-gradient(to bottom, white, white);
+    border-radius: 20px;
+    padding: 0px 30px 0px 30px;
+    height: 450px;
+}
+
+.menu-btn:hover {
+    background-image: linear-gradient(to bottom, #a5c8ff, #84b4fe);
+    color: white;
+}
+
+.usd:hover {
+    color: white;
+}
+
+.menu-btn img {
+    padding:0px 40px 0px 40px;
+}
+
+.usd {
+    position: relative;
+    bottom: 54px;
+    left: 30px;
+    color: var(--font-color);
+    font-weight: bold; 
+    font-size: 20px;
+}
+
+.add {
+    position: relative;
+    bottom: 85px;
+    left: 275px;
+}
+
+.add-btn {
+    border: none;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 0 10px 0 10px;
+    color: white;
+    background-image: linear-gradient(to bottom, #a5c8ff, #84b4fe);
+}
+
+
+
 
 
 

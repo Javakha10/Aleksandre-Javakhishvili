@@ -94,3 +94,21 @@
     left: 10px;
     bottom: 30px;
 }
+
+.grid-container-3 {
+    display: grid;
+    grid-template-columns:  (3, auto);
+    grid-template-rows: (5, auto);
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.item-31 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-32 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
