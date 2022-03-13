@@ -1,1 +1,34 @@
 @import url(./global.css);
+
+.container-body {
+    padding-top: 75px;
+    width: 1200px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.zip-container {
+    border-style: solid;
+    height: 50px;
+    border-width: 1px;
+    width: 380px;
+    border-radius: 30px;
+    border-color: var(--icon-color);
+    padding-left: 20px;
+    padding-right: 8px;
+}
+
+input:focus {
+    outline: none;
+    border: none;
+    color: var(--font-color);
+}
+
+.zip-code {
+    border: none;
+    border-radius: 30px;
+}
+
+::placeholder {
+    color: var(--font-color-2);
+}

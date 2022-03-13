@@ -1,10 +1,9 @@
 footer p {
-    color: var(--font-color);
+    color: var(--font-color-2);
     padding: 10px 0px;
     font-size: 18px;
     word-spacing: 2px;
     line-height: 1.5;
-    margin-bottom: 0;
 }
 
 footer a {
@@ -20,3 +19,36 @@ footer a {
 .footer-logo {
     padding: 0px 50px 0px 0px;
 }
+
+.icon {
+    width: 12px;
+}
+
+footer .footer {
+    align-items: center;
+    width: calc (100% - 287px);
+    margin: 0px;
+}
+
+.container-footer {
+    align-items: center;
+    width: calc (100% - 287px);
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 0;
+}
+
+.icon-margin {
+    margin-left: 10px;
+}
+
+.footer-first-part {
+    padding-bottom: 20px;
+}
+
+.div-1 {
+    background-color: var(--font-color-2);
+    height: 1px;
+}
+
+

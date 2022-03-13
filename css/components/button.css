@@ -8,3 +8,71 @@
     cursor: pointer;
     box-shadow: 0px 15px 8px #e1edfd;
 }
+
+.btn-icon{
+    border-style: solid;
+    border-width: 1px;
+    border-color: var(--icon-color);
+    border-radius: 5px;
+    padding: 8px 10px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.btn-icon:hover {
+    background-color: var(--btn-color);
+}
+
+.btn-arrow {
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btn-arrow img{
+    padding: 8px;
+}
+
+.btn-left {
+    border: solid 1px var(--icon-color);
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom right, white, white);
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+.btn-left:hover {
+    background-image: linear-gradient(to bottom right, #518ffe, #256ded);
+    box-shadow: 0px 10px 10px #e1edfd;
+}
+
+.btn-right {
+    border: solid 1px var(--icon-color);
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    padding: 15px 20px;
+}
+
+.btn-right:hover {
+    background-image: linear-gradient(to bottom right, #518ffe, #256ded);
+    box-shadow: 0px 10px 10px #e1edfd;
+}
+
+.card-btn {
+        border: solid 1px #eaf0fe;
+        background-image: linear-gradient(to bottom, #eaf0fe, #fefefe);
+        border-radius: 20px;
+        padding: 15px 30px;
+        cursor: pointer;
+}
+
+.card-btn:hover {
+    background-image: linear-gradient(to bottom, #a5c8ff, #84b4fe);
+    color: white;
+}
+
+
+
+

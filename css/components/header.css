@@ -8,7 +8,7 @@ nav {
 }
 
 nav a {
-    color: var(--font-color);
+    color: var(--font-color-2);
     text-decoration: none;
     padding: 0 15px;
     font-size: 20px;
