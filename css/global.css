@@ -6,221 +6,297 @@
 @import url(./variables.css);
 
 .d-flex {
-    display: flex;
+  display: flex;
 }
 
 h1 {
-    font-size: 65px;
-    color: var(--font-color);
+  font-size: 65px;
+  color: var(--font-color);
 }
 
 p {
-    color: var(--font-color-2);
-    padding: 10px 0px;
-    font-size: 18px;
-    word-spacing: 2px;
-    line-height: 1.5;
+  color: var(--font-color-2);
+  padding: 10px 0px;
+  font-size: 18px;
+  word-spacing: 2px;
+  line-height: 1.5;
 }
 
 h2 {
+  font-size: 55px;
+  color: var(--font-color);
+}
+
+@media screen and (min-width: 0px) {
+  h2 {
+    text-align: none;
+    font-size: 35px;
+  }
+}
+@media screen and (min-width: 576px) {
+  h2 {
+    text-align: none;
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    text-align: none;
     font-size: 55px;
-    color: var(--font-color);
+  }
+}
+@media screen and (min-width: 992px) {
+  h2 {
     text-align: center;
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  h2 {
+    text-align: center;
+    font-size: 55px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  h2 {
+    text-align: center;
+    font-size: 55px;
+  }
 }
 
 .item-22 {
-    padding-bottom: 70px;
+  padding-bottom: 70px;
 }
 .item2 p,
-.item-22 p
-{
-    color: var(--font-color-2);
-    padding: 0px;
-    font-size: 15px;
-    word-spacing: 2px;
-    line-height: 1.5;
+.item-22 p {
+  color: var(--font-color-2);
+  padding: 0px;
+  font-size: 15px;
+  word-spacing: 2px;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 0px) {
+  .item2 p,
+  .item-22 p,
+  .item-32,
+  .item42 p {
+    text-align: none;
+  }
+}
+@media screen and (min-width: 576px) {
+  .item2 p,
+  .item-22 p,
+  .item-32,
+  .item42 p {
+    text-align: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .item2 p,
+  .item-22 p,
+  .item-32,
+  .item42 p {
+    text-align: none;
+  }
+}
+@media screen and (min-width: 992px) {
+  .item2 p,
+  .item-22 p,
+  .item-32,
+  .item42 p {
     text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .item2 p,
+  .item-22 p,
+  .item-32,
+  .item42 p {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .item2 p,
+  .item-22 p,
+  .item-32,
+  .item42 p {
+    text-align: center;
+  }
 }
 
 .item2 {
-    padding-bottom: 50px;
+  padding-bottom: 50px;
 }
 
-.card-btn
-{
-    text-align: center;
-    color: var(--font-color);
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 20px;
+.card-btn {
+  text-align: center;
+  color: var(--font-color);
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 h3 {
-    text-align: center;
-    color: var(--font-color);
-    font-size: 22px;
+  text-align: center;
+  color: var(--font-color);
+  font-size: 22px;
 }
 
-.item-31 h2 {
+/* .item-32 p {
     text-align: center;
-    font-size: 55px;
-    color: var(--font-color);
-}
-.item-32 p {
-    text-align: center;
-}
+} */
 
 .menu-btn {
-    text-align: center;
-    color: var(--font-color);
-    font-weight: bold;
-    font-size: 20px;
-    padding-bottom: 10px;
-    line-height: 1.5;
+  text-align: center;
+  color: var(--font-color);
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 10px;
+  line-height: 1.5;
 }
 
 #p-under-logo {
-    color: var(--font-color-2);
+  color: var(--font-color-2);
 }
 
 .list-div {
-    padding-right: 100px;
-    padding-left: 50px;
+  padding-right: 100px;
+  padding-left: 50px;
 }
 .list-div-2 {
-    padding-right: 120px;
-    padding-left: 50px;
+  padding-right: 120px;
+  padding-left: 50px;
 }
 
 .arrouw-1 {
-    position: relative;
-    left: -450px;
-    top: 43px;
+  position: relative;
+  left: -429px;
+  top: 43px;
 }
 .arrouw-2 {
-    position: relative;
-    left: -200px;
-    top: 44px;
+  position: relative;
+  left: -200px;
+  top: 44px;
 }
 .arrouw-3 {
-    position: relative;
-    left: -429px;
-    top: 44px;
+  position: relative;
+  left: -429px;
+  top: 44px;
 }
 .arrouw-4 {
-    position: relative;
-    left: -176px;
-    top: 44px;
+  position: relative;
+  left: -176px;
+  top: 44px;
 }
 
 .diet {
-    padding-right: 50px;
+  padding-right: 50px;
 }
 
 .list {
-    padding-bottom: 50px;
-    padding-top: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .other-h2 {
-    text-align: left;
-    font-size: 55px;
+  text-align: left;
+  font-size: 55px;
 }
 
 #app-store {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .apps {
-    padding-top: 20px;
+  padding-top: 20px;
 }
 
 .client-name {
-    color: var(--font-color);
-    font-size: 20px;
-    padding: 0;
-    padding-left: 20px;
-    padding-bottom: 15px;
-    line-height: 0;
+  color: var(--font-color);
+  font-size: 20px;
+  padding: 0;
+  padding-left: 20px;
+  padding-bottom: 15px;
+  line-height: 0;
 }
 
-.client-corp{
-    color: var(--font-color-2);
-    font-size: 20px;
-    padding: 0;
-    padding-left: 20px;
-    line-height: 0;
-    padding-bottom: 10px;  
+.client-corp {
+  color: var(--font-color-2);
+  font-size: 20px;
+  padding: 0;
+  padding-left: 20px;
+  line-height: 0;
+  padding-bottom: 10px;
 }
 
 .stars {
-    padding-left: 20px;
+  padding-left: 20px;
 }
 
 .happy {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
-.engagement{
-    background-color: #c2daf6;
-    height: 120px;
-    width: 200px;
-    position: relative;
-    text-align: center;
-    border-radius: 15px;
-    opacity: 0.9;
-    left: 263px;
-    bottom: 117px;
-    box-shadow: black;
-    z-index: 9;
-
+.engagement {
+  background-color: #c2daf6;
+  height: 120px;
+  width: 200px;
+  position: relative;
+  text-align: center;
+  border-radius: 15px;
+  opacity: 0.9;
+  left: 263px;
+  bottom: 117px;
+  box-shadow: black;
+  z-index: 9;
 }
 
-.engagement p{
-    color: var(--font-color);
-    font-weight: bold;
-    padding-top: 15px;
+.engagement p {
+  color: var(--font-color);
+  font-weight: bold;
+  padding-top: 15px;
 }
 
 .avatar-1 {
-    position: relative;
-    left: 294px;
-    bottom: 185px;
-    z-index: 10;
-    opacity: none;
+  position: relative;
+  left: 294px;
+  bottom: 185px;
+  z-index: 10;
+  opacity: none;
 }
 
 .avatar-2 {
-    position: relative;
-    left: 338px;
-    bottom: 248px;
-    z-index: 10;
-    opacity: none;
+  position: relative;
+  left: 338px;
+  bottom: 248px;
+  z-index: 10;
+  opacity: none;
 }
 
 .followers {
-    position: relative;
-    border: 2px solid white;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    left: 379px;
-    bottom: 308px;
-    z-index: 12;
-    background-color: #c2daf6;
-    opacity: 0.9;
+  position: relative;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  left: 379px;
+  bottom: 308px;
+  z-index: 12;
+  background-color: #c2daf6;
+  opacity: 0.9;
 }
 
-.followers p{
-    text-align: center;
-    padding-top: 1px;
-    font-size: 14px;
-    color: var(--font-color);
-    font-weight: bold;
+.followers p {
+  text-align: center;
+  padding-top: 1px;
+  font-size: 14px;
+  color: var(--font-color);
+  font-weight: bold;
 }
 
 .card img {
-    border-radius: 30px;
+  border-radius: 30px;
 }
 
 /* .card h4,
@@ -229,43 +305,51 @@ h3 {
     padding-left: 10px;
 } */
 
-
-
 h4 {
   color: var(--font-color);
-  font-size: 25px;  
+  font-size: 25px;
 }
 
-.item-43 a{
-    text-decoration: none;
-    color: var(--font-color);
-    font-weight: bold;  
+.item-43 a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: bold;
 }
-.item-44 a{
-    text-decoration: none;
-    color: var(--font-color);
-    font-weight: bold;  
+.item-44 a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: bold;
 }
-.item-45 a{
-    text-decoration: none;
-    color: var(--font-color);
-    font-weight: bold;  
+.item-45 a {
+  text-decoration: none;
+  color: var(--font-color);
+  font-weight: bold;
 }
 
 .item-46 P {
-padding-left: 10px;
+  padding-left: 10px;
 }
 
 .last-div {
-    background-color: var(--last-color);
-    width: 100%;
-    height: 650px;
+  background-color: var(--last-color);
+  width: 100%;
+  height: 650px;
+}
+
+@media screen and (max-width: 768px) {
+  .last-div {
+    height: 1000px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .last-div {
+    height: 1000px;
+  }
 }
 
 .last-div h1,
-.last-div p
-{
-    color: white;
+.last-div p {
+  color: white;
 }
 
 /* .line {
@@ -278,9 +362,137 @@ padding-left: 10px;
 } */
 
 .ready-order {
-    padding-top:85px;
+  padding-top: 85px;
 }
 
+@media screen and (max-width: 576px) {
+  .item-35,
+  .item-38,
+  .item-36,
+  .item-37 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item-35,
+  .item-38,
+  .item-36,
+  .item-37 {
+    display: none;
+  }
+}
+@media screen and (max-width: 992px) {
+  .add {
+    left: 220px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .add {
+    left: 275px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .add {
+    left: 275px;
+  }
+}
 
+@media screen and (max-width: 576px) {
+  .left-right-btn {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 576px) {
+  .item42 {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item42 {
+    display: none;
+  }
+}
 
+@media screen and (max-width: 576px) {
+  .item-46 {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .item-46 {
+    padding-left: 0px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .item-46 {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-logo {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .div-1 {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .item3,
+  .item4,
+  .item5,
+  .item-33 {
+    display: none;
+  }
+}
+@media screen and (max-width: 576px) {
+  .item6 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .client {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .client {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .engagement,
+  .avatar-1,
+  .avatar-2,
+  .followers {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .engagement,
+  .avatar-1,
+  .avatar-2,
+  .followers {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .girl-delivery {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .girl-delivery {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .location-img {
+    width: 80px;
+  }
+}

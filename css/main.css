@@ -2,9 +2,46 @@
 
 .container-body {
     padding-top: 75px;
-    width: 1200px;
     margin: auto;
     padding-bottom: 100px;
+}
+
+@media screen and (min-width: 0px) {
+    .container-body {
+        display: block;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .container-body {
+        width: 576px;
+        display: block;
+        
+    }
+}
+@media screen and (min-width: 768px) {
+    .container-body {
+        width: 768px;
+        display: flex;    
+    }
+}
+@media screen and (min-width: 992px) {
+    .container-body {
+        width: 992px;
+        display: flex;  
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container-body {
+        width: 1200px;
+        display: flex;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .container-body {
+        width: 1200px;
+        display: flex;
+    }
 }
 
 .container-body-1 {
@@ -13,7 +50,46 @@
     margin: auto;
 }
 
-.zip-container-last {
+@media screen and (min-width: 0px) {
+
+    .container-body-1 {
+        display: block;
+        width: 400px;
+    }
+}
+@media screen and (min-width: 576px) {
+    .container-body-1 {
+        width: 576px;
+        display: block;
+        
+    }
+}
+@media screen and (min-width: 768px) {
+    .container-body-1 {
+        width: 768px;
+        display: block;   
+    }
+}
+@media screen and (min-width: 992px) {
+    .container-body-1 {
+        width: 992px;
+        display: flex;  
+    }
+}
+@media screen and (min-width: 1200px) {
+    .container-body-1 {
+        width: 1200px;
+        display: flex;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .container-body-1 {
+        width: 1200px;
+        display: flex;
+    }
+}
+
+.zip-container {
     border-style: solid;
     height: 50px;
     border-width: 1px;
